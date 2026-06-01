@@ -1,0 +1,14 @@
+{
+  "name": "csmanager-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "bcryptjs": "^2.4.3",
+    "mssql": "^11.0.1"
+  }
+}
